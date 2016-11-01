@@ -7,7 +7,6 @@ RUN yum -y install supervisor \
     make \
     openssl \
     mod_ssl && yum clean all
-
 # Add config files and scripts
 ADD ./vhost.conf /etc/httpd/conf.d/default-vhost.conf
 ADD ./index.php /var/www/html/index.php
