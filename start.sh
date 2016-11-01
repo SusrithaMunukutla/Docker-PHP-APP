@@ -6,4 +6,4 @@ __run_supervisor() {
 }
 
 # Call all functions
-__run_superviso
+__run_supervisor
