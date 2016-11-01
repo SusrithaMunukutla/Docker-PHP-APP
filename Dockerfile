@@ -1,5 +1,5 @@
 FROM lysender/php
-MAINTAINER Leonel Baer <leonel@lysender.com>
+# MAINTAINER Leonel Baer <leonel@lysender.com>
 
 # Install Apache  and misc tools
 RUN yum -y install supervisor \ 
