@@ -23,3 +23,4 @@ VOLUME ["/var/www/html", "/var/log/httpd"]
 EXPOSE 80
 
 CMD ["/bin/bash", "/start.sh"]
+#Test
